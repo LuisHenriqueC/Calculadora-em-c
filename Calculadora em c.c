@@ -15,7 +15,8 @@ int main()
         printf("2 - Suntração\n");
         printf("3 - Multiplicação\n");
         printf("4 - Divisão\n");
-        printf("5 - Sair\n");
+        printf("5 - Potencia\n");
+        printf("6 - Sair\n");
         
         printf("\n----------------------\n");
         
@@ -64,6 +65,9 @@ int main()
                 printf("O resultado é = %f", total);
                 break;
             case 5:
+                printf("Em construção..");
+                break;
+            case 6:
                 sair = 'y';
                 break;
             default:
