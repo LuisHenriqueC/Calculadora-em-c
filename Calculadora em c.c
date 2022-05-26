@@ -75,4 +75,6 @@ int main()
                 break;
         }
     }while(sair != 'y');
+
+    return 0;
 }
